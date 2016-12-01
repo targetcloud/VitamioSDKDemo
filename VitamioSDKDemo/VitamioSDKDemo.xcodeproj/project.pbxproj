@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ABA285F1DEEFCB1009E53B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABA285E1DEEFCB1009E53B7 /* AppDelegate.swift */; };
+		6ABA28611DEEFCB1009E53B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABA28601DEEFCB1009E53B7 /* ViewController.swift */; };
+		6ABA28641DEEFCB1009E53B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ABA28621DEEFCB1009E53B7 /* Main.storyboard */; };
+		6ABA28661DEEFCB1009E53B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABA28651DEEFCB1009E53B7 /* Assets.xcassets */; };
+		6ABA28691DEEFCB1009E53B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ABA28671DEEFCB1009E53B7 /* LaunchScreen.storyboard */; };
+		6ABA28721DEEFDFA009E53B7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABA28711DEEFDFA009E53B7 /* AVFoundation.framework */; };
+		6ABA28741DEEFE09009E53B7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABA28731DEEFE09009E53B7 /* AudioToolbox.framework */; };
+		6ABA28761DEEFE15009E53B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABA28751DEEFE15009E53B7 /* CoreGraphics.framework */; };
+		6ABA28781DEEFE22009E53B7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABA28771DEEFE22009E53B7 /* CoreMedia.framework */; };
+		6ABA287A1DEEFE2E009E53B7 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABA28791DEEFE2E009E53B7 /* CoreVideo.framework */; };
+		6ABA287C1DEEFE3C009E53B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABA287B1DEEFE3C009E53B7 /* Foundation.framework */; };
+		6ABA287E1DEEFE48009E53B7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABA287D1DEEFE48009E53B7 /* MediaPlayer.framework */; };
+		6ABA28801DEEFE53009E53B7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABA287F1DEEFE53009E53B7 /* OpenGLES.framework */; };
+		6ABA28821DEEFE5E009E53B7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABA28811DEEFE5D009E53B7 /* QuartzCore.framework */; };
+		6ABA28841DEEFE67009E53B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABA28831DEEFE67009E53B7 /* UIKit.framework */; };
+		6ABA28861DEEFE78009E53B7 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABA28851DEEFE78009E53B7 /* libbz2.tbd */; };
+		6ABA28881DEEFE86009E53B7 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABA28871DEEFE86009E53B7 /* libz.tbd */; };
+		6ABA288A1DEEFE94009E53B7 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABA28891DEEFE94009E53B7 /* libstdc++.tbd */; };
+		6ABA288C1DEEFEA2009E53B7 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABA288B1DEEFEA2009E53B7 /* libiconv.tbd */; };
+		6ABA289E1DEEFEFF009E53B7 /* libffmpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABA28991DEEFEFF009E53B7 /* libffmpeg.a */; };
+		6ABA289F1DEEFEFF009E53B7 /* libopenssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABA289A1DEEFEFF009E53B7 /* libopenssl.a */; };
+		6ABA28A01DEEFEFF009E53B7 /* libVitamio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABA289B1DEEFEFF009E53B7 /* libVitamio.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6ABA285B1DEEFCB1009E53B7 /* VitamioSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VitamioSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABA285E1DEEFCB1009E53B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6ABA28601DEEFCB1009E53B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6ABA28631DEEFCB1009E53B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ABA28651DEEFCB1009E53B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ABA28681DEEFCB1009E53B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6ABA286A1DEEFCB1009E53B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ABA28711DEEFDFA009E53B7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6ABA28731DEEFE09009E53B7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6ABA28751DEEFE15009E53B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6ABA28771DEEFE22009E53B7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6ABA28791DEEFE2E009E53B7 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		6ABA287B1DEEFE3C009E53B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6ABA287D1DEEFE48009E53B7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6ABA287F1DEEFE53009E53B7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		6ABA28811DEEFE5D009E53B7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6ABA28831DEEFE67009E53B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6ABA28851DEEFE78009E53B7 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		6ABA28871DEEFE86009E53B7 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6ABA28891DEEFE94009E53B7 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		6ABA288B1DEEFEA2009E53B7 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		6ABA28911DEEFEFF009E53B7 /* VDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDefines.h; sourceTree = "<group>"; };
+		6ABA28921DEEFEFF009E53B7 /* Vitamio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vitamio.h; sourceTree = "<group>"; };
+		6ABA28931DEEFEFF009E53B7 /* VMediaExtracter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMediaExtracter.h; sourceTree = "<group>"; };
+		6ABA28941DEEFEFF009E53B7 /* VMediaExtracterDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMediaExtracterDef.h; sourceTree = "<group>"; };
+		6ABA28951DEEFEFF009E53B7 /* VMediaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMediaPlayer.h; sourceTree = "<group>"; };
+		6ABA28961DEEFEFF009E53B7 /* VMediaPlayerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMediaPlayerDelegate.h; sourceTree = "<group>"; };
+		6ABA28971DEEFEFF009E53B7 /* VPlayerManageDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPlayerManageDef.h; sourceTree = "<group>"; };
+		6ABA28981DEEFEFF009E53B7 /* VSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSingleton.h; sourceTree = "<group>"; };
+		6ABA28991DEEFEFF009E53B7 /* libffmpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libffmpeg.a; sourceTree = "<group>"; };
+		6ABA289A1DEEFEFF009E53B7 /* libopenssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopenssl.a; sourceTree = "<group>"; };
+		6ABA289B1DEEFEFF009E53B7 /* libVitamio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libVitamio.a; sourceTree = "<group>"; };
+		6ABA28A21DEF00CE009E53B7 /* VitamioSDKDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VitamioSDKDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ABA28581DEEFCB1009E53B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABA288C1DEEFEA2009E53B7 /* libiconv.tbd in Frameworks */,
+				6ABA288A1DEEFE94009E53B7 /* libstdc++.tbd in Frameworks */,
+				6ABA28881DEEFE86009E53B7 /* libz.tbd in Frameworks */,
+				6ABA28861DEEFE78009E53B7 /* libbz2.tbd in Frameworks */,
+				6ABA28841DEEFE67009E53B7 /* UIKit.framework in Frameworks */,
+				6ABA289E1DEEFEFF009E53B7 /* libffmpeg.a in Frameworks */,
+				6ABA289F1DEEFEFF009E53B7 /* libopenssl.a in Frameworks */,
+				6ABA28821DEEFE5E009E53B7 /* QuartzCore.framework in Frameworks */,
+				6ABA28801DEEFE53009E53B7 /* OpenGLES.framework in Frameworks */,
+				6ABA287E1DEEFE48009E53B7 /* MediaPlayer.framework in Frameworks */,
+				6ABA287C1DEEFE3C009E53B7 /* Foundation.framework in Frameworks */,
+				6ABA28A01DEEFEFF009E53B7 /* libVitamio.a in Frameworks */,
+				6ABA287A1DEEFE2E009E53B7 /* CoreVideo.framework in Frameworks */,
+				6ABA28781DEEFE22009E53B7 /* CoreMedia.framework in Frameworks */,
+				6ABA28761DEEFE15009E53B7 /* CoreGraphics.framework in Frameworks */,
+				6ABA28741DEEFE09009E53B7 /* AudioToolbox.framework in Frameworks */,
+				6ABA28721DEEFDFA009E53B7 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ABA28521DEEFCB1009E53B7 = {
+			isa = PBXGroup;
+			children = (
+				6ABA285D1DEEFCB1009E53B7 /* VitamioSDKDemo */,
+				6ABA285C1DEEFCB1009E53B7 /* Products */,
+				6ABA28701DEEFDFA009E53B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6ABA285C1DEEFCB1009E53B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ABA285B1DEEFCB1009E53B7 /* VitamioSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ABA285D1DEEFCB1009E53B7 /* VitamioSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6ABA288D1DEEFEFF009E53B7 /* Vitamio */,
+				6ABA285E1DEEFCB1009E53B7 /* AppDelegate.swift */,
+				6ABA28601DEEFCB1009E53B7 /* ViewController.swift */,
+				6ABA28621DEEFCB1009E53B7 /* Main.storyboard */,
+				6ABA28651DEEFCB1009E53B7 /* Assets.xcassets */,
+				6ABA28671DEEFCB1009E53B7 /* LaunchScreen.storyboard */,
+				6ABA286A1DEEFCB1009E53B7 /* Info.plist */,
+				6ABA28A21DEF00CE009E53B7 /* VitamioSDKDemo-Bridging-Header.h */,
+			);
+			path = VitamioSDKDemo;
+			sourceTree = "<group>";
+		};
+		6ABA28701DEEFDFA009E53B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ABA288B1DEEFEA2009E53B7 /* libiconv.tbd */,
+				6ABA28891DEEFE94009E53B7 /* libstdc++.tbd */,
+				6ABA28871DEEFE86009E53B7 /* libz.tbd */,
+				6ABA28851DEEFE78009E53B7 /* libbz2.tbd */,
+				6ABA28831DEEFE67009E53B7 /* UIKit.framework */,
+				6ABA28811DEEFE5D009E53B7 /* QuartzCore.framework */,
+				6ABA287F1DEEFE53009E53B7 /* OpenGLES.framework */,
+				6ABA287D1DEEFE48009E53B7 /* MediaPlayer.framework */,
+				6ABA287B1DEEFE3C009E53B7 /* Foundation.framework */,
+				6ABA28791DEEFE2E009E53B7 /* CoreVideo.framework */,
+				6ABA28771DEEFE22009E53B7 /* CoreMedia.framework */,
+				6ABA28751DEEFE15009E53B7 /* CoreGraphics.framework */,
+				6ABA28731DEEFE09009E53B7 /* AudioToolbox.framework */,
+				6ABA28711DEEFDFA009E53B7 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6ABA288D1DEEFEFF009E53B7 /* Vitamio */ = {
+			isa = PBXGroup;
+			children = (
+				6ABA288F1DEEFEFF009E53B7 /* include */,
+				6ABA28991DEEFEFF009E53B7 /* libffmpeg.a */,
+				6ABA289A1DEEFEFF009E53B7 /* libopenssl.a */,
+				6ABA289B1DEEFEFF009E53B7 /* libVitamio.a */,
+			);
+			path = Vitamio;
+			sourceTree = "<group>";
+		};
+		6ABA288F1DEEFEFF009E53B7 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				6ABA28901DEEFEFF009E53B7 /* Vitamio */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		6ABA28901DEEFEFF009E53B7 /* Vitamio */ = {
+			isa = PBXGroup;
+			children = (
+				6ABA28911DEEFEFF009E53B7 /* VDefines.h */,
+				6ABA28921DEEFEFF009E53B7 /* Vitamio.h */,
+				6ABA28931DEEFEFF009E53B7 /* VMediaExtracter.h */,
+				6ABA28941DEEFEFF009E53B7 /* VMediaExtracterDef.h */,
+				6ABA28951DEEFEFF009E53B7 /* VMediaPlayer.h */,
+				6ABA28961DEEFEFF009E53B7 /* VMediaPlayerDelegate.h */,
+				6ABA28971DEEFEFF009E53B7 /* VPlayerManageDef.h */,
+				6ABA28981DEEFEFF009E53B7 /* VSingleton.h */,
+			);
+			path = Vitamio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ABA285A1DEEFCB1009E53B7 /* VitamioSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABA286D1DEEFCB1009E53B7 /* Build configuration list for PBXNativeTarget "VitamioSDKDemo" */;
+			buildPhases = (
+				6ABA28571DEEFCB1009E53B7 /* Sources */,
+				6ABA28581DEEFCB1009E53B7 /* Frameworks */,
+				6ABA28591DEEFCB1009E53B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VitamioSDKDemo;
+			productName = VitamioSDKDemo;
+			productReference = 6ABA285B1DEEFCB1009E53B7 /* VitamioSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ABA28531DEEFCB1009E53B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = targetcloud;
+				TargetAttributes = {
+					6ABA285A1DEEFCB1009E53B7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 38C5J53JU9;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 6ABA28561DEEFCB1009E53B7 /* Build configuration list for PBXProject "VitamioSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ABA28521DEEFCB1009E53B7;
+			productRefGroup = 6ABA285C1DEEFCB1009E53B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ABA285A1DEEFCB1009E53B7 /* VitamioSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ABA28591DEEFCB1009E53B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABA28691DEEFCB1009E53B7 /* LaunchScreen.storyboard in Resources */,
+				6ABA28661DEEFCB1009E53B7 /* Assets.xcassets in Resources */,
+				6ABA28641DEEFCB1009E53B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ABA28571DEEFCB1009E53B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABA28611DEEFCB1009E53B7 /* ViewController.swift in Sources */,
+				6ABA285F1DEEFCB1009E53B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6ABA28621DEEFCB1009E53B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ABA28631DEEFCB1009E53B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6ABA28671DEEFCB1009E53B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ABA28681DEEFCB1009E53B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ABA286B1DEEFCB1009E53B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6ABA286C1DEEFCB1009E53B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ABA286E1DEEFCB1009E53B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 38C5J53JU9;
+				INFOPLIST_FILE = VitamioSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VitamioSDKDemo/Vitamio",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.targetcloud.VitamioSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ff27c144-e93f-436f-9c85-9f13fb15249f";
+				PROVISIONING_PROFILE_SPECIFIER = allapp;
+				SWIFT_OBJC_BRIDGING_HEADER = "VitamioSDKDemo/VitamioSDKDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6ABA286F1DEEFCB1009E53B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 38C5J53JU9;
+				INFOPLIST_FILE = VitamioSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VitamioSDKDemo/Vitamio",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.targetcloud.VitamioSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ff27c144-e93f-436f-9c85-9f13fb15249f";
+				PROVISIONING_PROFILE_SPECIFIER = allapp;
+				SWIFT_OBJC_BRIDGING_HEADER = "VitamioSDKDemo/VitamioSDKDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ABA28561DEEFCB1009E53B7 /* Build configuration list for PBXProject "VitamioSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABA286B1DEEFCB1009E53B7 /* Debug */,
+				6ABA286C1DEEFCB1009E53B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABA286D1DEEFCB1009E53B7 /* Build configuration list for PBXNativeTarget "VitamioSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABA286E1DEEFCB1009E53B7 /* Debug */,
+				6ABA286F1DEEFCB1009E53B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ABA28531DEEFCB1009E53B7 /* Project object */;
+}
